@@ -1,0 +1,52 @@
+body, html{
+	margin : 0;
+	padding: 0;
+}
+#toolbar{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 30px;
+	background-color : #303030;
+}
+#toolbar img{
+	display: block;
+	float : left;
+	padding-top: 4px;
+	padding-right: 20px;
+}
+#toolbar ul{
+	margin-left: 0px;
+	margin-top: 0px;	
+	list-style: none;
+	position: relative;
+}
+#toolbar ul li{
+	position: relative;
+	display: inline;
+}
+#toolbar ul li a{
+	color : white;
+	display: inline-block;
+	text-decoration: none;
+	padding : 20px;
+}
+#toolbar ul li a:hover{
+	display: inline-block;
+	color : white;
+	background-color : #3D3D3D;
+	text-decoration: none;
+}
+#toolbar ul ul{
+	display: none;
+	position: absolute;
+	margin: 0;
+	background-color: #3D3D3D;
+    z-index: 1;
+}
+#toolbar ul li:hover ul {
+    display: block;
+    left: 0;
+    padding-left: 0px;
+}
+#toolbar ul li ul li a:hover{
+	color: #00FFEE;
+}

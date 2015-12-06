@@ -1,0 +1,45 @@
+#slideshow{
+	position: relative; 
+	left: 0; 
+	top: 0;
+}
+#slideshow_pic{
+	left : 12.5%;
+	position: relative; 
+	display: block; 
+}
+#slideshow_navleft{
+	position: absolute;
+	display: block;
+	opacity: 0;
+	left : 12.5%;
+	top : 0;
+}
+#slideshow_navright{
+	position: absolute;
+	display: block;
+	opacity: 0;
+	left : 50%;
+	top: 0;
+}
+#slideshow_navright:hover, #slideshow_navleft:hover{
+	opacity: 1;
+}
+#slideshow_dots img{
+	position: absolute;
+	bottom:0; 
+}
+#dot1{
+	left: 43%;
+	display: block;
+}
+#dot2{
+	left: 48%;
+	opacity: 0.6;
+	display: block;
+}
+#dot3{ 
+	left: 53%;
+	opacity: 0.6;
+	display: block;
+}
